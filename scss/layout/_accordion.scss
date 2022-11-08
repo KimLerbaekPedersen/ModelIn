@@ -1,0 +1,51 @@
+@import '../abstracts/variables';
+
+.container{
+    font-family: $font-Mukta;
+    text-align: center; 
+    @include content-margin-sides;
+    
+    h1{
+        border-bottom: 1px solid $accordionBorder-color;
+        text-align: center;
+        font-weight: normal;
+        font-size: 45px;
+    }
+    
+    .accordion {
+        background-color: $burger-menu-txt-color;
+        color: $btn-color;
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 24px;
+        transition: 0.4s;
+        border-bottom: 1px solid $accordionBorder-color;     
+
+        &:hover {
+            background-color: rgba(160, 160, 160, 0.562);
+        }
+        &:after {
+            content: '\002B';
+            color: $btn-color;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+    }
+    .active {
+        &:after {
+            content: "\2212";
+        }
+    }
+    .panel {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+}
+

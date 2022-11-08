@@ -1,0 +1,14 @@
+@import '../../abstracts/variables';
+
+.offer-container{   
+    height: auto;
+    padding: 90px 30px;
+    font-family: $font-Mukta;
+    text-align: center;
+    
+    h1{
+        font-weight: normal;
+        line-height: 54px;
+        font-size: 45px;
+    }
+}

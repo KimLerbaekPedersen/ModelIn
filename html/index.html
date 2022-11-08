@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ModelIn</title>
+</head>
+<body>
+    <!-- NAVBAR START -->
+    <header id="nav">
+        <div class="nav-container">
+            <a href="index.html"><img class="Logo" src="../assets/img/logo-modelin.png" alt="logo ModelIn"></a>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolioHtml/portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <a href="https://www.instagram.com/"><i class="fa-brands insta-nav fa-instagram fa-2x"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands face-nav fa-facebook fa-2x"></i></a>
+                </ul>
+            </nav>
+            <div onclick="menuShow()" id="burger">
+                <svg onclick="burgerMenuColor()" id="burgerColorChange" viewBox="0 0 448 512" title="bars">
+                    <path
+                        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                </svg>
+            </div>
+        </div>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <section class="hero">
+        <div class="txt-container">
+            <div class="wrapper">
+                <h1>Modern elegant <br> and luxurios <br> interior</h1>
+                <p>Individual approach to the design of private apartments and public areas</p>
+                <a href="portfolioHtml/portfolio.html"><button>Se Portfolio</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- OFFER SECTION START -->
+    <section class="offer-container">
+        <h1>Offering you a full range of <br> interior and furniture design <br> services</h1>
+        <p style="padding: 80px 0;">Alexander Westham <br> Interior Designer</p>
+        <p>Experience of over 10 years of successful projects on creating unique and modern interior designs <br> all
+            over the world</p>
+    </section>
+    <!-- OFFER SECTION END -->
+
+    <!-- ACCORDION START -->
+    <section class="container">
+        <h1>Services</h1>
+        <button class="accordion">Design projects</button>
+        <div class="panel">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Set and interior</button>
+        <div class="panel">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Decoration</button>
+        <div class="panel">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Supervision</button>
+        <div class="panel">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+    </section>
+    <!-- ACCORDION END -->
+
+    <!-- NEED MORE DETAILS START -->
+    <section class="detail-container">
+        <h1>Need more Details</h1>
+        <h2>info@idp.com</h2>
+        <p>Contact me for details on creating and managing design projects, project features, and services and prices</p>
+    </section>
+    <!-- NEED MORE DETAILS END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <ul class="footer-ul footer-item_1">
+            <li>&copy; 2020 Alexander Westham</li>
+            <li>Interior Designer</li>
+        </ul>
+        <ul class="footer-ul footer-item_2">
+            <li>Home</li>
+            <li>Portfolio</li>
+            <li>About Me</li>
+            <li>Contact</li>
+        </ul>
+        <ul class="footer-ul footer-item_3">
+            <a href="https://www.instagram.com/"><i class="fa-brands foot-insta fa-instagram fa-3x"></i>
+                <li>Instagram</li>
+            </a>
+            <a href="https://www.facebook.com/"><i class="fa-brands foot-face fa-facebook fa-3x"></i>
+                <li>Facebook</li>
+            </a>
+        </ul>
+    </footer>
+    <!-- FOOTER END -->
+    <script src="../js/index.js" defer></script>
+</body>
+</html>
